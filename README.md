@@ -43,6 +43,5 @@ node publisher.js
 Sempre que rodar o publisher, este enviará um mensagem à fila, o Rabbit enviará
 a mensagem ao subscriber que estiver disponível.
 
-```
 
 
