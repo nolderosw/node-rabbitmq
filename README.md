@@ -4,7 +4,8 @@
 O projeto de baseia em uma abordagem simples para envio e recebimento de mensagem usando o conceito de mensageria, com as stacks RabbitMQ e Node.js
 ```
 
-[RabbitMQ](https://www.rabbitmq.com/)
+[RabbitMQ](https://www.rabbitmq.com/) 
+ e 
 [Nodejs](https://nodejs.org/)
 
 ### 1. Configurando container Rabbit
