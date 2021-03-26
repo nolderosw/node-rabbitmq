@@ -14,6 +14,6 @@ const Subscriber = async () => {
         console.log(` [x] Recebida a mensagem ${msg.content.toString()}`, )
         channel.ack(msg) //confirmação de uma mensagem recebida
     }, { noAck: false })
-    process.once('SIGINT', () => conn.close())
+    process.once('SIGINT', () => connection.close())
 }
 Subscriber()

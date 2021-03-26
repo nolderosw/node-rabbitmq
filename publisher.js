@@ -10,6 +10,6 @@ const Publisher = async () => {
     channel.sendToQueue(queue, new Buffer.from(msg))
 
     console.log(`[x] Enviada a mensagem ${msg} para a fila ${queue}`)
-    setTimeout(() => { conn.close(); process.exit(0) }, 500)
+    setTimeout(() => { connection.close(); process.exit(0) }, 500)
 }
 Publisher()
