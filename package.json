@@ -1,0 +1,10 @@
+{
+  "name": "node-rabbitmq",
+  "author": "wesley <wesleu150wow@gmail.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "publish.js",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
+}
